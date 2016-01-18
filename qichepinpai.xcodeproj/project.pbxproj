@@ -15,6 +15,8 @@
 		3A68D7931C4CD8CB00FAE1DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A68D7911C4CD8CB00FAE1DB /* LaunchScreen.storyboard */; };
 		3A68D79E1C4CD8CB00FAE1DB /* qichepinpaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A68D79D1C4CD8CB00FAE1DB /* qichepinpaiTests.m */; };
 		3A68D7A91C4CD8CB00FAE1DB /* qichepinpaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A68D7A81C4CD8CB00FAE1DB /* qichepinpaiUITests.m */; };
+		3A68D7B71C4CD95F00FAE1DB /* cars_simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A68D7B61C4CD95F00FAE1DB /* cars_simple.plist */; };
+		3A68D7BA1C4CD9B900FAE1DB /* carGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A68D7B91C4CD9B900FAE1DB /* carGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		3A68D7A41C4CD8CB00FAE1DB /* qichepinpaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qichepinpaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A68D7A81C4CD8CB00FAE1DB /* qichepinpaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qichepinpaiUITests.m; sourceTree = "<group>"; };
 		3A68D7AA1C4CD8CB00FAE1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A68D7B61C4CD95F00FAE1DB /* cars_simple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars_simple.plist; sourceTree = "<group>"; };
+		3A68D7B81C4CD9B900FAE1DB /* carGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = carGroup.h; sourceTree = "<group>"; };
+		3A68D7B91C4CD9B900FAE1DB /* carGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = carGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,8 @@
 				3A68D78F1C4CD8CB00FAE1DB /* Assets.xcassets */,
 				3A68D7911C4CD8CB00FAE1DB /* LaunchScreen.storyboard */,
 				3A68D7941C4CD8CB00FAE1DB /* Info.plist */,
+				3A68D7B81C4CD9B900FAE1DB /* carGroup.h */,
+				3A68D7B91C4CD9B900FAE1DB /* carGroup.m */,
 				3A68D7831C4CD8CB00FAE1DB /* Supporting Files */,
 			);
 			path = qichepinpai;
@@ -117,6 +124,7 @@
 		3A68D7831C4CD8CB00FAE1DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A68D7B61C4CD95F00FAE1DB /* cars_simple.plist */,
 				3A68D7841C4CD8CB00FAE1DB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A68D7931C4CD8CB00FAE1DB /* LaunchScreen.storyboard in Resources */,
+				3A68D7B71C4CD95F00FAE1DB /* cars_simple.plist in Resources */,
 				3A68D7901C4CD8CB00FAE1DB /* Assets.xcassets in Resources */,
 				3A68D78E1C4CD8CB00FAE1DB /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A68D7BA1C4CD9B900FAE1DB /* carGroup.m in Sources */,
 				3A68D78B1C4CD8CB00FAE1DB /* ViewController.m in Sources */,
 				3A68D7881C4CD8CB00FAE1DB /* AppDelegate.m in Sources */,
 				3A68D7851C4CD8CB00FAE1DB /* main.m in Sources */,
